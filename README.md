@@ -12,12 +12,19 @@ The pipeline consists of several stages:
 
 - Extract unique characters from the text
 - Convert every character into an integer index
+- <img width="529" height="256" alt="image" src="https://github.com/user-attachments/assets/6caf430e-4f14-4a0a-8802-085ffddc7582" />
+
 - Create overlapping sequences of length 50
 - Learn character embeddings
+- <img width="623" height="452" alt="image" src="https://github.com/user-attachments/assets/23c651cc-a929-42f1-acd3-14c56c2f8724" />
+
 - Process sequences using an LSTM
 - Predict the next character using a linear classifier
 
+
 During inference, the model repeatedly predicts one character, appends it to the input, and feeds it back into itself to continue generating text.
+
+<img width="582" height="393" alt="image" src="https://github.com/user-attachments/assets/c85a395a-56f5-4630-a935-c5fc5b4be0f0" />
 
 ---
 
@@ -35,9 +42,7 @@ This project covers many important NLP and deep learning concepts including:
 
 ---
 
-## Why Character-Level?
-
-Unlike word-level models, character-level models have a much smaller vocabulary and can generate words they have never explicitly seen before.
+## Character-Level
 
 Instead of learning:
 
