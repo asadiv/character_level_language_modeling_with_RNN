@@ -1,6 +1,6 @@
 # Character-Level Language Model using LSTM
 
-**Streamlit link:** [click here to see the deployed app](https://characterlevellanguagemodeling.streamlit.app/)
+**Streamlit link:** [click here to see the deployed app](https://characterlevellanguagemodeling.streamlit.app/) \
 This project implements a character-level language model from scratch in PyTorch. Instead of predicting complete words, the model predicts the next **character** given all previous characters.
 
 The model was trained on **The Mysterious Island** by Jules Verne and can generate new text one character at a time.
